@@ -6,16 +6,18 @@
 |__/|__/\____/_/   \__,_/_/_/____/\__/  /_/  /_/\___/\___/_/ /_/\__,_/_/ /_/_/\___/  
 </pre>
 
-[pt-br](README.md) | [en](README-EN.md)
+**[pt-br](README.md) | [en](README-EN.md)**
 
-O **Wordlist Mechanic** é uma ferramenta super rápida para classificar os registros de um arquivo de entrada em ordem alfabética crescente, e ao mesmo tempo, eliminar itens redundantes.
+
+O **Wordlist Mechanic** é uma ferramenta para classificar as palavras de um arquivo em ordem alfabética crescente, e ao mesmo tempo, eliminar registros redundantes.
+E acredite... realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 1 segundo).
 
 ## Índice
 
-- [Uso](#Uso)
-- [Pré-requisitos](#Pré-requisitos)
-- [Instalação Manual](#Instalação Manual)
-- [Configuração](#Configuração)
+- [Uso](#uso)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação Manual](#instalação-manual)
+- [Configuração](#configuração)
 
 ## Uso
 
@@ -53,6 +55,5 @@ wordlist3.txt
 # lua wlm.lua messy_wordlist.txt sorted_wordlist.txt
 ````
 
-Pronto! O arquivo resultante teve todos os registros redundantes removidos e seu conteúdo foi organizado alfabeticamente na velocidade da luz.
-
-Happy Hacking.
+Pronto! O arquivo resultante teve todas as palavras repetidas eliminadas e seu conteúdo foi organizado alfabeticamente na velocidade da luz.
+-- Happy Hacking
