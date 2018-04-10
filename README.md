@@ -63,7 +63,7 @@ Inicialmente, vale destacar que existem dois parâmetros a serem informados: **I
 
 Caso o nome do arquivo de saída (**OUTFILE**) não seja informado, será utilizado o nome do arquivo de entrada (**INFILE**) acrescido da extensão .sort.
 
-Agora, execute o comando abaixo:
+Exemplo:
 ````
 # lua wlm.lua messy_wordlist.txt sorted_wordlist.txt
 ````
