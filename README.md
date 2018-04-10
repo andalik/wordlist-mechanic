@@ -6,7 +6,7 @@
 |__/|__/\____/_/   \__,_/_/_/____/\__/  /_/  /_/\___/\___/_/ /_/\__,_/_/ /_/_/\___/  
 </pre>
 
-**[pt-br](README.md) | [en](README-EN.md)**<br/><br/>
+**pt-br | [en](README-EN.md)**<br/><br/>
 
 O **Wordlist Mechanic** é uma ferramenta para classificar as palavras de um arquivo em ordem alfabética crescente, e ao mesmo tempo, eliminar registros redundantes.<br/>
 E acredite... realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 1 segundo).
