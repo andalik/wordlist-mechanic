@@ -9,7 +9,7 @@
 **pt-br | [en](README-EN.md)**<br/><br/>
 
 O **Wordlist Mechanic** é uma ferramenta para classificar as palavras de um arquivo em ordem alfabética crescente, e ao mesmo tempo, eliminar registros redundantes.<br/>
-E acredite... realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 1 segundo).
+E acredite... é realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 1 segundo).
 
 ## Índice
 
@@ -67,6 +67,6 @@ Agora, execute o programa:
 # lua wlm.lua messy_wordlist.txt sorted_wordlist.txt
 ````
 
-Pronto! O arquivo resultante teve todas as palavras repetidas eliminadas e seu conteúdo organizado alfabeticamente na velocidade da luz.<br/>
+Pronto! Sem bagunça e nem demora.<br/>
 
 -- Happy Hacking
