@@ -10,6 +10,7 @@
 
 
 O **Wordlist Mechanic** é uma ferramenta para classificar as palavras de um arquivo em ordem alfabética crescente, e ao mesmo tempo, eliminar registros redundantes.
+
 E acredite... realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 1 segundo).
 
 ## Índice
@@ -17,7 +18,8 @@ E acredite... realmente rápido (ordenação e eliminação de palavras repetida
 - [Uso](#uso)
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação Manual](#instalação-manual)
-- [Configuração](#configuração)
+- [Preparação da Wordlist](#preparação-da-wordlist)
+- [Execução](#execução)
 
 ## Uso
 
@@ -37,9 +39,11 @@ Por exemplo, para instalar o Lua no Ubuntu, execute o comando abaixo:
 2. Clone o repositório do projeto (master branch): `git clone https://github.com/andalik/wordlist-mechanic.git`;
 3. Acesse a pasta local: `cd ~/wordlist-mechanic`;
 
-### Execução
+### Preparação da Wordlist
 
-1. Se você possuir múltiplos arquivos de wordlist e pretende unifica-los, simplesmente concatene-os em um único arquivo. Exemplo:
+Se você possui múltiplos arquivos de wordlist e pretende unifica-los, simplesmente concatene-os em um único arquivo. 
+
+Exemplo:
 ````
 # ls -al wordlist*.txt
 wordlist1.txt
@@ -50,10 +54,21 @@ wordlist3.txt
 # cat wordlist2.txt >> messy_wordlist.txt
 # cat wordlist3.txt >> messy_wordlist.txt
 ````
-2. Agora, execute o aplicativo: `lua wlm.lua INFILE OUTFILE`
+
+### Execução
+
+Inicialmente, vale destacar que existem dois parâmetro em linha de comando: **INFILE** e **OUTFILE**.
+
+-**INFILE (entrada)**: arquivo de worlist "bagunçado" que será processado pelo programa
+-**OUTFILE (saída)**: arquivo de wordlist "ordenado" resultante
+
+Caso o arquivo de saida (OUTFILE) não seja informado, será utilizado o nome do arquivo de entrada (INFILE) acrescido da extensao sort.
+
+Agora, execute o aplicativo: `lua wlm.lua INFILE OUTFILE`
 ````
 # lua wlm.lua messy_wordlist.txt sorted_wordlist.txt
 ````
 
 Pronto! O arquivo resultante teve todas as palavras repetidas eliminadas e seu conteúdo foi organizado alfabeticamente na velocidade da luz.
+
 -- Happy Hacking
