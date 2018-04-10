@@ -36,6 +36,7 @@ Por exemplo, para instalar o Lua no Ubuntu, execute o comando abaixo:
 1. Baixe e instale a última versão do interpretador Lua
 2. Clone o repositório do projeto (master branch): `git clone https://github.com/andalik/wordlist-mechanic.git`
 3. Acesse a pasta local: `cd ~/wordlist-mechanic`
+4. Execute o comando: `lua wlm.lua INFILE OUTFILE` 
 
 ### Preparação da Wordlist
 
@@ -58,15 +59,15 @@ wordlist3.txt
 Inicialmente, vale destacar que existem dois parâmetros a serem informados: **INFILE** e **OUTFILE**.
 
 - **INFILE (obrigatório)**: nome do arquivo de entrada "bagunçado" que será processado<br/>
-- **OUTFILE (opcional)**: nome do arquivo de saída "ordenado"
+- **OUTFILE (opcional)**: nome do arquivo de saída "organizado"
 
 Caso o nome do arquivo de saída (**OUTFILE**) não seja informado, será utilizado o nome do arquivo de entrada (**INFILE**) acrescido da extensão .sort.
 
-Agora, execute o programa:
+Agora, execute o comando abaixo:
 ````
 # lua wlm.lua messy_wordlist.txt sorted_wordlist.txt
 ````
 
-Pronto! Sem bagunça e nem demora.<br/>
+Pronto! Criado novo arquivo de wordlist "organizado".<br/>
 
 -- Happy Hacking
