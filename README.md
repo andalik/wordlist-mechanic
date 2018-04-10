@@ -6,7 +6,7 @@
 |__/|__/\____/_/   \__,_/_/_/____/\__/  /_/  /_/\___/\___/_/ /_/\__,_/_/ /_/_/\___/  
 </pre>
 
-**[pt-br](README.md) | [en](README-EN.md)**<br/>
+**[pt-br](README.md) | [en](README-EN.md)**<br/><br/>
 
 O **Wordlist Mechanic** é uma ferramenta para classificar as palavras de um arquivo em ordem alfabética crescente, e ao mesmo tempo, eliminar registros redundantes.<br/>
 E acredite... realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 1 segundo).
@@ -17,7 +17,7 @@ E acredite... realmente rápido (ordenação e eliminação de palavras repetida
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação Manual](#instalação-manual)
 - [Preparação da Wordlist](#preparação-da-wordlist)
-- [Execução](#execução)
+- [Execução em Linha de Comando](#execução-em-linha-de-comando)
 
 ## Uso
 
@@ -53,16 +53,16 @@ wordlist3.txt
 # cat wordlist3.txt >> messy_wordlist.txt
 ````
 
-### Execução
+### Execução em Linha de Comando
 
-Inicialmente, vale destacar que existem dois parâmetro em linha de comando: **INFILE** e **OUTFILE**.
+Inicialmente, vale destacar que existem dois parâmetros a serem informados: **INFILE** e **OUTFILE**.
 
--**INFILE (entrada)**: arquivo de worlist "bagunçado" que será processado pelo programa<br/>
--**OUTFILE (saída)**: arquivo de wordlist "ordenado" resultante
+- **INFILE (obrigatório)**: nome do arquivo de entrada "bagunçado" que será processado<br/>
+- **OUTFILE (opcional)**: nome do arquivo de saída "ordenado"
 
-Caso o arquivo de saida (**OUTFILE**) não seja informado, será utilizado o nome do arquivo de entrada (**INFILE**) acrescido da extensão sort.
+Caso o nome do arquivo de saída (**OUTFILE**) não seja informado, será utilizado o nome do arquivo de entrada (**INFILE**) acrescido da extensão .sort.
 
-Agora, execute o aplicativo: `lua wlm.lua INFILE OUTFILE`
+Agora, execute o programa:
 ````
 # lua wlm.lua messy_wordlist.txt sorted_wordlist.txt
 ````
