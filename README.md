@@ -68,4 +68,5 @@ Agora, execute o programa:
 ````
 
 Pronto! O arquivo resultante teve todas as palavras repetidas eliminadas e seu conteúdo organizado alfabeticamente na velocidade da luz.<br/>
+
 -- Happy Hacking
