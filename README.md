@@ -4,12 +4,13 @@
 | | /| / / __ \/ ___/ __  / / / ___/ __/  / /|_/ / _ \/ ___/ __ \/ __ `/ __ \/ / ___/
 | |/ |/ / /_/ / /  / /_/ / / (__  ) /_   / /  / /  __/ /__/ / / / /_/ / / / / / /__  
 |__/|__/\____/_/   \__,_/_/_/____/\__/  /_/  /_/\___/\___/_/ /_/\__,_/_/ /_/_/\___/  
+by Renato Andalik
 </pre>
 
 **pt-br | [en](README-EN.md)**<br/><br/>
 
 O **Wordlist Mechanic** é uma ferramenta para classificar as palavras de um arquivo em ordem alfabética crescente, e ao mesmo tempo, eliminar registros redundantes.<br/>
-E acredite... é realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 1 segundo).
+E acredite em mim... ele é realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 2 segundos).
 
 ## Índice
 
@@ -17,14 +18,14 @@ E acredite... é realmente rápido (ordenação e eliminação de palavras repet
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação Manual](#instalação-manual)
 - [Preparação da Wordlist](#preparação-da-wordlist)
-- [Execução em Linha de Comando](#execução-em-linha-de-comando)
+- [Execução do Wordlist Mechanic](#execução-do-wordlist-mechanic)
 
 ## Uso
 
 ### Pré-requisitos
 
 O **Wordlist Mechanic** foi desenvolvido em Lua, portanto, é necessário instalar o interpretador para o seu sistema operacional.
-Para mais informações, acesse o [site oficial do projeto Lua](https://www.lua.org/download.html).
+Para mais informações, acesse o [website oficial do projeto Lua](https://www.lua.org/download.html).
 
 Por exemplo, para instalar o Lua no Ubuntu, execute o comando abaixo:
 ````
@@ -40,7 +41,7 @@ Por exemplo, para instalar o Lua no Ubuntu, execute o comando abaixo:
 
 ### Preparação da Wordlist
 
-Se você possui múltiplos arquivos de wordlist e pretende unifica-los, simplesmente concatene-os em um único arquivo (não se preocupe com a bagunça). 
+Se você possui múltiplos arquivos de wordlist e pretende unifica-los, simplesmente concatene-os em um único arquivo (não se preocupe com a bagunça... nós cuidaremos de tudo). 
 
 Exemplo:
 ````
@@ -54,7 +55,7 @@ wordlist3.txt
 # cat wordlist3.txt >> messy_wordlist.txt
 ````
 
-### Execução em Linha de Comando
+### Execução do Wordlist Mechanic
 
 Inicialmente, vale destacar que existem dois parâmetros a serem informados: **INFILE** e **OUTFILE**.
 
