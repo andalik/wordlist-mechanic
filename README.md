@@ -9,7 +9,7 @@ by Renato Andalik
 
 **pt-br | [en](README-EN.md)**<br/><br/>
 
-O **Wordlist Mechanic** é uma ferramenta para classificar as palavras de um arquivo em ordem alfabética crescente, e ao mesmo tempo, eliminar registros redundantes.<br/>
+O **Wordlist Mechanic** é uma ferramenta para classificar um dicionário de palavras em ordem alfabética crescente, e ao mesmo tempo, eliminar registros redundantes.<br/>
 E acredite em mim... ele é realmente rápido (ordenação e eliminação de palavras repetidas em uma wordlist de 1.000.000 registros em 2 segundos).
 
 ## Índice
@@ -41,7 +41,7 @@ Por exemplo, para instalar o Lua no Ubuntu, execute o comando abaixo:
 
 ### Preparação da Wordlist
 
-Se você possui múltiplos arquivos de wordlist e pretende unifica-los, simplesmente concatene-os em um único arquivo (não se preocupe com a bagunça... nós cuidaremos de tudo). 
+Se você possui múltiplos dicionários de palavras e pretende unifica-los, simplesmente concatene-os em um único arquivo (não se preocupe com a bagunça... nós cuidaremos de tudo). 
 
 Exemplo:
 ````
@@ -69,6 +69,6 @@ Exemplo:
 # lua wlm.lua messy_wordlist.txt sorted_wordlist.txt
 ````
 
-Pronto! Criado novo arquivo de wordlist "organizado".<br/>
+Pronto! Criado novo dicionário de palavras "organizado".<br/>
 
 -- Happy Hacking
